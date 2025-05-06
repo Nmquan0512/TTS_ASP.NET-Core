@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "m1tBt7YjE4c=",
+  "success": true,
+  "projectFilePath": "C:\\Users\\x\\source\\repos\\Ngay1\\Ngay1.Infrastructure\\Ngay1.Infrastructure.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\x\\.nuget\\packages\\serilog\\4.2.0\\serilog.4.2.0.nupkg.sha512"
+  ],
+  "logs": []
+}

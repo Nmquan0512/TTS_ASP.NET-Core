@@ -1,0 +1,12 @@
+C:\Users\x\source\repos\Ngay1\Ngay1.Infrastructure\bin\Debug\net8.0\Ngay1.Infrastructure.deps.json
+C:\Users\x\source\repos\Ngay1\Ngay1.Infrastructure\bin\Debug\net8.0\Ngay1.Infrastructure.dll
+C:\Users\x\source\repos\Ngay1\Ngay1.Infrastructure\bin\Debug\net8.0\Ngay1.Infrastructure.pdb
+C:\Users\x\source\repos\Ngay1\Ngay1.Infrastructure\obj\Debug\net8.0\Ngay1.Infrastructure.csproj.AssemblyReference.cache
+C:\Users\x\source\repos\Ngay1\Ngay1.Infrastructure\obj\Debug\net8.0\Ngay1.Infrastructure.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\x\source\repos\Ngay1\Ngay1.Infrastructure\obj\Debug\net8.0\Ngay1.Infrastructure.AssemblyInfoInputs.cache
+C:\Users\x\source\repos\Ngay1\Ngay1.Infrastructure\obj\Debug\net8.0\Ngay1.Infrastructure.AssemblyInfo.cs
+C:\Users\x\source\repos\Ngay1\Ngay1.Infrastructure\obj\Debug\net8.0\Ngay1.Infrastructure.csproj.CoreCompileInputs.cache
+C:\Users\x\source\repos\Ngay1\Ngay1.Infrastructure\obj\Debug\net8.0\Ngay1.Infrastructure.dll
+C:\Users\x\source\repos\Ngay1\Ngay1.Infrastructure\obj\Debug\net8.0\refint\Ngay1.Infrastructure.dll
+C:\Users\x\source\repos\Ngay1\Ngay1.Infrastructure\obj\Debug\net8.0\Ngay1.Infrastructure.pdb
+C:\Users\x\source\repos\Ngay1\Ngay1.Infrastructure\obj\Debug\net8.0\ref\Ngay1.Infrastructure.dll

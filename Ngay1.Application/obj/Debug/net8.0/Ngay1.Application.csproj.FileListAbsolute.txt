@@ -1,0 +1,15 @@
+C:\Users\x\source\repos\Ngay1\Ngay1.Application\bin\Debug\net8.0\Ngay1.Application.deps.json
+C:\Users\x\source\repos\Ngay1\Ngay1.Application\bin\Debug\net8.0\Ngay1.Application.dll
+C:\Users\x\source\repos\Ngay1\Ngay1.Application\bin\Debug\net8.0\Ngay1.Application.pdb
+C:\Users\x\source\repos\Ngay1\Ngay1.Application\bin\Debug\net8.0\Ngay1.Infrastructure.dll
+C:\Users\x\source\repos\Ngay1\Ngay1.Application\bin\Debug\net8.0\Ngay1.Infrastructure.pdb
+C:\Users\x\source\repos\Ngay1\Ngay1.Application\obj\Debug\net8.0\Ngay1.Application.csproj.AssemblyReference.cache
+C:\Users\x\source\repos\Ngay1\Ngay1.Application\obj\Debug\net8.0\Ngay1.Application.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\x\source\repos\Ngay1\Ngay1.Application\obj\Debug\net8.0\Ngay1.Application.AssemblyInfoInputs.cache
+C:\Users\x\source\repos\Ngay1\Ngay1.Application\obj\Debug\net8.0\Ngay1.Application.AssemblyInfo.cs
+C:\Users\x\source\repos\Ngay1\Ngay1.Application\obj\Debug\net8.0\Ngay1.Application.csproj.CoreCompileInputs.cache
+C:\Users\x\source\repos\Ngay1\Ngay1.Application\obj\Debug\net8.0\Ngay1.Ap.A6701AD2.Up2Date
+C:\Users\x\source\repos\Ngay1\Ngay1.Application\obj\Debug\net8.0\Ngay1.Application.dll
+C:\Users\x\source\repos\Ngay1\Ngay1.Application\obj\Debug\net8.0\refint\Ngay1.Application.dll
+C:\Users\x\source\repos\Ngay1\Ngay1.Application\obj\Debug\net8.0\Ngay1.Application.pdb
+C:\Users\x\source\repos\Ngay1\Ngay1.Application\obj\Debug\net8.0\ref\Ngay1.Application.dll

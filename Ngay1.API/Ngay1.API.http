@@ -1,0 +1,6 @@
+@Ngay1.API_HostAddress = http://localhost:5167
+
+GET {{Ngay1.API_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###
