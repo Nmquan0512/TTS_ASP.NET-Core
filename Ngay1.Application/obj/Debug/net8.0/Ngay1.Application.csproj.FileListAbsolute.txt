@@ -13,3 +13,5 @@ C:\Users\x\source\repos\Ngay1\Ngay1.Application\obj\Debug\net8.0\Ngay1.Applicati
 C:\Users\x\source\repos\Ngay1\Ngay1.Application\obj\Debug\net8.0\refint\Ngay1.Application.dll
 C:\Users\x\source\repos\Ngay1\Ngay1.Application\obj\Debug\net8.0\Ngay1.Application.pdb
 C:\Users\x\source\repos\Ngay1\Ngay1.Application\obj\Debug\net8.0\ref\Ngay1.Application.dll
+C:\Users\x\source\repos\Ngay1\Ngay1.Application\bin\Debug\net8.0\Ngay1.Application.runtimeconfig.json
+C:\Users\x\source\repos\Ngay1\Ngay1.Application\obj\Debug\net8.0\Ngay1.Application.genruntimeconfig.cache
