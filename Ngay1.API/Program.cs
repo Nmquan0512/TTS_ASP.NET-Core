@@ -3,7 +3,8 @@ using Ngay1.Application.Products.Interfaces;
 using Ngay1.Application.Products.Services;
 using Ngay1.Infrastructure.Data;
 using Ngay1.Infrastructure.Repositories;
-
+using Microsoft.AspNetCore.Mvc;
+using Microsoft.AspNetCore.Mvc.Versioning;
 var builder = WebApplication.CreateBuilder(args);
 
 builder.Services.AddControllers();
@@ -15,7 +16,13 @@ builder.Services.AddDbContext<AppDbContext>(options =>
 builder.Services.AddSingleton<InMemoryProductRepository>();
 builder.Services.AddScoped<IProductService, ProductService>();
 builder.Services.AddScoped<IProductRepository, ProductRepository>();
-
+builder.Services.AddApiVersioning(options =>
+{
+	options.AssumeDefaultVersionWhenUnspecified = true;
+	options.DefaultApiVersion = new ApiVersion(1, 0);
+	options.ReportApiVersions = true;
+	options.ApiVersionReader = new UrlSegmentApiVersionReader();
+});
 var app = builder.Build();
 
 using (var scope = app.Services.CreateScope())

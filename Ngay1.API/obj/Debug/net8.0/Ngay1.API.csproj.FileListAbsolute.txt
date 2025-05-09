@@ -148,3 +148,4 @@ C:\Users\x\source\repos\Ngay1\Ngay1.API\bin\Debug\net8.0\runtimes\win\lib\net6.0
 C:\Users\x\source\repos\Ngay1\Ngay1.API\bin\Debug\net8.0\runtimes\win\lib\net6.0\System.Runtime.Caching.dll
 C:\Users\x\source\repos\Ngay1\Ngay1.API\bin\Debug\net8.0\runtimes\win\lib\net6.0\System.Security.Cryptography.ProtectedData.dll
 C:\Users\x\source\repos\Ngay1\Ngay1.API\bin\Debug\net8.0\runtimes\win\lib\net6.0\System.Windows.Extensions.dll
+C:\Users\x\source\repos\Ngay1\Ngay1.API\bin\Debug\net8.0\Microsoft.AspNetCore.Mvc.Versioning.dll

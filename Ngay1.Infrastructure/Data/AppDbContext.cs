@@ -14,6 +14,9 @@ namespace Ngay1.Infrastructure.Data
 		public DbSet<Products> Products => Set<Products>();
 		public DbSet<Category> Categories => Set<Category>();
 		public DbSet<Warehouse> Warehouses => Set<Warehouse>();
+		public DbSet<DeliveryNote> DeliveryNotes => Set<DeliveryNote>();
+
+		public DbSet<DeliveryHistory> DeliveryHistory => Set<DeliveryHistory>();
 		public DbSet<ProductWarehouse> ProductWarehouses => Set<ProductWarehouse>();
 
 		protected override void OnModelCreating(ModelBuilder modelBuilder)
@@ -30,6 +33,19 @@ namespace Ngay1.Infrastructure.Data
 				.HasOne(pw => pw.Warehouse)
 				.WithMany(w => w.ProductWarehouses)
 				.HasForeignKey(pw => pw.WarehouseId);
+
+			modelBuilder.Entity<DeliveryNote>()
+				.HasOne(d => d.Warehouse)
+				.WithMany()
+				.HasForeignKey(d => d.WarehouseId);
+
+			modelBuilder.Entity<DeliveryHistory>()
+				.HasOne(h => h.DeliveryNote)
+				.WithMany(d => d.Histories)
+				.HasForeignKey(h => h.DeliveryNoteId);
+
+			
+			base.OnModelCreating(modelBuilder);
 		}
 	}
 }

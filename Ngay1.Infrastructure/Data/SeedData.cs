@@ -2,6 +2,9 @@
 
 public static class SeedData
 {
+
+
+
 	public static void Initialize(AppDbContext context)
 	{
 		var categories = new List<Category>
@@ -28,5 +31,35 @@ public static class SeedData
 };
 		context.Products.AddRange(products);
 		context.SaveChanges();
+
+
+
+		var deliveryNotes = new List<DeliveryNote>
+{
+	new DeliveryNote { Code = "PXK-2024-001", WarehouseId = 1, ExportDate = new DateTime(2024,12,20), Status = "Delivered" },
+	new DeliveryNote { Code = "PXK-2024-002", WarehouseId = 2, ExportDate = new DateTime(2024,12,22), Status = "In Transit" },
+};
+		context.DeliveryNotes.AddRange(deliveryNotes);
+		context.SaveChanges();
+
+		// Sau đó lấy lại Id
+		var savedNotes = context.DeliveryNotes.ToList();
+
+
+
+
+		var deliveryHistories = new List<DeliveryHistory>
+{
+	new DeliveryHistory { DeliveryNoteId = savedNotes[0].Id, Status = "Đang xử lý", Timestamp = new DateTime(2024, 12, 20, 8, 0, 0) },
+	new DeliveryHistory { DeliveryNoteId = savedNotes[1].Id, Status = "Đã giao thành công", Timestamp = new DateTime(2024, 12, 21, 15, 30, 0) },
+	new DeliveryHistory { DeliveryNoteId = savedNotes[1].Id, Status = "Đang xử lý", Timestamp = new DateTime(2024, 12, 22, 9, 0, 0) }
+};
+
+		context.DeliveryHistory.AddRange(deliveryHistories);
+		context.SaveChanges();
 	}
-	}
+}
+
+
+
+	
